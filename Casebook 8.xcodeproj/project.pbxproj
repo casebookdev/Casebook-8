@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4C0BA7197E652E007ED584 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4C0BA6197E652E007ED584 /* CoreData.framework */; };
 		2CB3D67B197E639F00DCAECE /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3D67A197E639F00DCAECE /* LICENSE.txt */; };
 		2CE6AC48197E5B7000FA59FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC47197E5B7000FA59FE /* AppDelegate.swift */; };
 		2CE6AC4A197E5B7000FA59FE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC49197E5B7000FA59FE /* FirstViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C4C0BA6197E652E007ED584 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2CB3D67A197E639F00DCAECE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		2CE6AC42197E5B6F00FA59FE /* Casebook 8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casebook 8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE6AC46197E5B7000FA59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4C0BA7197E652E007ED584 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		2CE6AC39197E5B6F00FA59FE = {
 			isa = PBXGroup;
 			children = (
+				2C4C0BA6197E652E007ED584 /* CoreData.framework */,
 				2CB3D67A197E639F00DCAECE /* LICENSE.txt */,
 				2CE6AC44197E5B6F00FA59FE /* Casebook 8 */,
 				2CE6AC59197E5B7000FA59FE /* Casebook 8Tests */,
