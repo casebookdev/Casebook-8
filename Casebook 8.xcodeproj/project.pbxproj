@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		2C4C0BA7197E652E007ED584 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4C0BA6197E652E007ED584 /* CoreData.framework */; };
 		2CB3D67B197E639F00DCAECE /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3D67A197E639F00DCAECE /* LICENSE.txt */; };
+		2CBA8582197FD65200B7C87F /* CaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA8580197FD65200B7C87F /* CaseModel.xcdatamodeld */; };
 		2CE6AC48197E5B7000FA59FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC47197E5B7000FA59FE /* AppDelegate.swift */; };
 		2CE6AC4A197E5B7000FA59FE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC49197E5B7000FA59FE /* FirstViewController.swift */; };
 		2CE6AC4C197E5B7000FA59FE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC4B197E5B7000FA59FE /* SecondViewController.swift */; };
 		2CE6AC4F197E5B7000FA59FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6AC4D197E5B7000FA59FE /* Main.storyboard */; };
 		2CE6AC51197E5B7000FA59FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6AC50197E5B7000FA59FE /* Images.xcassets */; };
 		2CE6AC5D197E5B7000FA59FE /* Casebook_8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC5C197E5B7000FA59FE /* Casebook_8Tests.swift */; };
-		2CFB84FA197E69AC00B7F9C4 /* CaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CFB84F8197E69AC00B7F9C4 /* CaseModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +31,7 @@
 /* Begin PBXFileReference section */
 		2C4C0BA6197E652E007ED584 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2CB3D67A197E639F00DCAECE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		2CBA8581197FD65200B7C87F /* CaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaseModel.xcdatamodel; sourceTree = "<group>"; };
 		2CE6AC42197E5B6F00FA59FE /* Casebook 8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casebook 8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE6AC46197E5B7000FA59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE6AC47197E5B7000FA59FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		2CE6AC56197E5B7000FA59FE /* Casebook 8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casebook 8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE6AC5B197E5B7000FA59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE6AC5C197E5B7000FA59FE /* Casebook_8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casebook_8Tests.swift; sourceTree = "<group>"; };
-		2CFB84F9197E69AC00B7F9C4 /* CaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaseModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 				2CE6AC49197E5B7000FA59FE /* FirstViewController.swift */,
 				2CE6AC4B197E5B7000FA59FE /* SecondViewController.swift */,
 				2CE6AC4D197E5B7000FA59FE /* Main.storyboard */,
-				2CFB84F8197E69AC00B7F9C4 /* CaseModel.xcdatamodeld */,
+				2CBA8580197FD65200B7C87F /* CaseModel.xcdatamodeld */,
 				2CE6AC50197E5B7000FA59FE /* Images.xcassets */,
 				2CE6AC45197E5B7000FA59FE /* Supporting Files */,
 			);
@@ -225,7 +225,7 @@
 				2CE6AC4C197E5B7000FA59FE /* SecondViewController.swift in Sources */,
 				2CE6AC48197E5B7000FA59FE /* AppDelegate.swift in Sources */,
 				2CE6AC4A197E5B7000FA59FE /* FirstViewController.swift in Sources */,
-				2CFB84FA197E69AC00B7F9C4 /* CaseModel.xcdatamodeld in Sources */,
+				2CBA8582197FD65200B7C87F /* CaseModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,12 +429,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2CFB84F8197E69AC00B7F9C4 /* CaseModel.xcdatamodeld */ = {
+		2CBA8580197FD65200B7C87F /* CaseModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2CFB84F9197E69AC00B7F9C4 /* CaseModel.xcdatamodel */,
+				2CBA8581197FD65200B7C87F /* CaseModel.xcdatamodel */,
 			);
-			currentVersion = 2CFB84F9197E69AC00B7F9C4 /* CaseModel.xcdatamodel */;
+			currentVersion = 2CBA8581197FD65200B7C87F /* CaseModel.xcdatamodel */;
 			path = CaseModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
