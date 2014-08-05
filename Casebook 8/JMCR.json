@@ -1,0 +1,98 @@
+{
+   "caseTitle":"JMCR Case",
+   "caseDescription": "Portions of this case, including text, were extracted from the following case report:  Ammannagari N, Chikoti S, Bravin E: Hodgkin's lymphoma presenting as a complex paraneoplastic neurological syndrome: a case report. Journal of Medical Case Reports 2013, 7:96.",
+   "meshTerms": ["D001763", "D004172", "D018908"],
+   "keywords": ["Blepharoptosis", "Diplopia", "Muscle Weakness"], 
+   
+   "departments": [
+      {
+         "departmentTitle": "First Visit",
+         "patientRecords": [
+            {
+               "recordTitle": "Patient Presentation",
+               "filename": "1.png",
+               "annotation": "Stroke was considered as an early differential diagnosis.",
+               "question": {
+                  "questionText": "What is the correct medical term for a drooping eyelid?",
+                  "questionChoices": ["Ptosis", "Miosis", "Proptosis", "Mydriasis", "Ectropion"],
+                  "correct": [0]
+               }
+            },
+            {
+               "recordTitle": "Physical Examination",
+               "filename": "2.png"
+            },
+            {
+               "recordTitle": "Consultation",
+               "filename": "3.png",
+               "question": {
+                  "questionText": "What statement regarding the procedure of a lumbar puncture is correct?",
+                  "questionChoices": ["Important is a lying position, best with extended lumbar spine.", "The spinal needle is inserted at L1/L2 heading 30° downwards.", "The needle has to pass the ligamentum flavum and the dura mater together with the arachnoid membrane.", "A blunt needle is needed to avoid spinal injuries."],
+                  "correct": [2]
+               }
+            },
+            {
+               "recordTitle": "Lab Report",
+               "filename": "4.png"
+            },
+            {
+               "recordTitle": "Treatment",
+               "filename": "5.png"
+            }            
+         ]
+      },      
+      {
+         "departmentTitle": "Second Visit",
+         "patientRecords": [
+            {
+               "recordTitle": "Follow-Up Presentation",
+               "filename": "6.png"
+            },
+            {
+               "recordTitle": "Further Presentation Report",
+               "filename": "7.png"
+            },
+            {
+               "recordTitle": "Physical Examination",
+               "filename": "8.png"
+            },
+            {
+               "recordTitle": "Laboratory and MRI",
+               "filename": "9.png"
+            },
+            {
+               "recordTitle": "Examinations",
+               "filename": "10.png"
+            },
+            {
+               "recordTitle": "Computed Tomography",
+               "filename": "11.png"
+            },
+            {
+               "recordTitle": "Thorax CT",
+               "filename": "12.png",
+               "annotation":"Computed tomography of the thorax showing the anterior superior mediastinal node measuring 1.7 by 1.3cm."
+            },
+            {
+               "recordTitle": "Biopsy",
+               "filename": "13.png",
+               "annotation":"Nodular sclerosing pattern of Hodgkin's lymphoma."
+            },
+            {
+               "recordTitle": "Initial Treatment",
+               "filename": "14.png"
+            },
+            {
+               "recordTitle": "Diagnosis and Treatment",
+               "filename": "15.png",
+               "annotation":"Paraneoplastic neuropathies are seen in association with 4% to 5% of cancers. Hodgkin’s lymphoma is also associated with multiple paraneoplastic neuropathies like cerebellar degeneration, acute inflammatory demyelinating polyneuropathy (Guillain-Barré), CIDP, chorea and ataxia, subacute sensory neuropathy, motor neuron disease, myasthenia gravis, stiff person syndrome and brachial neuropathy. The most common neurological syndrome described in the literature is subacute cortical cerebellar degeneration with more than 50 cases reported so far. Demyelinating neuropathies are very rare. Few cases of CLL associated with paraneoplastic demyelinating neuropathies like Guillain-Barré syndrome or Miller-Fisher syndrome are reported to date.",
+               "question": {
+                  "questionText": "Which classification is used to sort Hodgkin's lymphomas?",
+                  "questionChoices": ["FIGO system", "Dukes staging system", "Gleason grading system", "Whitmore-Jewett staging", "Ann-Arbor staging"],
+                  "correct": [4]
+               }
+            }
+         ]
+      }
+   ]
+}
