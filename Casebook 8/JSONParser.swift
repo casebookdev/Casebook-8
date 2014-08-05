@@ -16,3 +16,16 @@ import Foundation
 // Ammannagari N, Chikoti S, Bravin E: Hodgkin's lymphoma presenting as a complex paraneoplastic 
 // neurological syndrome: a case report. Journal of Medical Case Reports 2013, 7:96.
 
+
+func parseJSONFile(fileToParsen: NSString) -> NSString{
+    // For the moment we will return a string, but later we'll return a Case object.
+    
+    // We shall first read a hard coded filename in, namely JMCR.json
+    let filename:NSString = "JMCR"
+    
+    // Now we can load the JSON by translating the code from the other Casebook project
+    
+    // ...
+    
+    return filename
+}
