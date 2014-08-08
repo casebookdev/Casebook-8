@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		2C2481F5199405DC00A83E33 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
 		2C4C0BA6197E652E007ED584 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CA7594A1994B1AB00D32C9B /* JSONParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
 		2CB3D67A197E639F00DCAECE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		2CBA8581197FD65200B7C87F /* CaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaseModel.xcdatamodel; sourceTree = "<group>"; };
 		2CBD2BA41990D7D4008984CB /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				2C2481F5199405DC00A83E33 /* JSONParser.m */,
+				2CA7594A1994B1AB00D32C9B /* JSONParser.h */,
 				2CE6AC46197E5B7000FA59FE /* Info.plist */,
 			);
 			name = "Supporting Files";
