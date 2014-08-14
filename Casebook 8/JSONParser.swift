@@ -21,11 +21,16 @@ func parseJSONFile(fileToParsen: NSString) -> NSString{
     // For the moment we will return a string, but later we'll return a Case object.
     
     // We shall first read a hard coded filename in, namely JMCR.json
+    // let is used for constants, var for variables
     let filename:NSString = "JMCR"
+    var err:NSError
     
     // Now we can load the JSON by translating the code from the other Casebook project
     
-    // ...
+
+    
+    
+    
     
     return filename
 }
