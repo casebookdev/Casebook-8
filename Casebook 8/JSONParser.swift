@@ -39,6 +39,10 @@ func parseJSONFile(fileToParsen: NSString) -> NSString{
     
     context.save(nil) // We shall add error handling later by supplying an error:NSErrorPointer object.
     
+    // Test the outout
+    println(newCase)
+    println("Case saved...")
+    
     // NOTE TO SELF!!!
     // The next step is to generate the classes fromthe XC Data Model. Then we can input Case objects, with 
     // Record and Question objects within these Case objects. 
