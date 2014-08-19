@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import CoreData
+import UIKit
 
 // Here we shall import the parsing code from the previous project and convert it into Swift code. 
 // As an example JSON file, will parse the file that was uploaded with the BMC article.
@@ -25,9 +27,16 @@ func parseJSONFile(fileToParsen: NSString) -> NSString{
     let filename:NSString = "JMCR"
     var err:NSError
     
+    
+    // Let's now store our App Delegate, we need this to access the SQL Lite database and so on.
+    var appDel:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    
+    
+    
+    
     // Now we can load the JSON by translating the code from the other Casebook project
     
-
+    
     
     
     

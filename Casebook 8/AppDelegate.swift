@@ -10,11 +10,11 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    var window: UIWindow?
-    
-    
+class AppDelegate: UIResponder, UIApplicationDelegate { // Just a quick note: this is the actual class that we will
+                                                        // make objects from when accessing the Core Data stuff.
+    var window: UIWindow?                               // That means that if we make changes here we can change
+                                                        // the functionality of all the App Delegate objects that we
+                                                        // will use throughout the project. 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         // self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
