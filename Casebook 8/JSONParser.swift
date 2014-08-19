@@ -30,7 +30,19 @@ func parseJSONFile(fileToParsen: NSString) -> NSString{
     
     // Let's now store our App Delegate, we need this to access the SQL Lite database and so on.
     var appDel:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    var context:NSManagedObjectContext = appDel.managedObjectContext
     
+    var newCase = NSEntityDescription.insertNewObjectForEntityForName("Case", inManagedObjectContext: context) as NSManagedObject
+    
+    newCase.setValue("JMCR Test Case", forKey: "caseTitle")
+    newCase.setValue("A test case that we will extract from the BMC journal sample case JSON file", forKey: "caseDescription")
+    
+    context.save(nil) // We shall add error handling later by supplying an error:NSErrorPointer object.
+    
+    // NOTE TO SELF!!!
+    // The next step is to generate the classes fromthe XC Data Model. Then we can input Case objects, with 
+    // Record and Question objects within these Case objects. 
+    // NEXT STEP: Auto-generate classes from data model!
     
     
     
