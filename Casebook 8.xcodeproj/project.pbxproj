@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C17294219A5F84C006F54C4 /* Case.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C17294119A5F84C006F54C4 /* Case.m */; };
+		2C17294519A5F84D006F54C4 /* Choice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C17294419A5F84D006F54C4 /* Choice.m */; };
+		2C17294819A5F84D006F54C4 /* Keyword.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C17294719A5F84D006F54C4 /* Keyword.m */; };
+		2C17294B19A5F84D006F54C4 /* MeshTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C17294A19A5F84D006F54C4 /* MeshTerm.m */; };
+		2C17294E19A5F84D006F54C4 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C17294D19A5F84D006F54C4 /* Question.m */; };
+		2C17295119A5F84D006F54C4 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C17295019A5F84D006F54C4 /* Record.m */; };
 		2C2481F6199405DC00A83E33 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2481F5199405DC00A83E33 /* JSONParser.m */; };
 		2C4C0BA7197E652E007ED584 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4C0BA6197E652E007ED584 /* CoreData.framework */; };
 		2CB3D67B197E639F00DCAECE /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2CB3D67A197E639F00DCAECE /* LICENSE.txt */; };
@@ -32,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C17294019A5F84C006F54C4 /* Case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
+		2C17294119A5F84C006F54C4 /* Case.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case.m; sourceTree = "<group>"; };
+		2C17294319A5F84D006F54C4 /* Choice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Choice.h; sourceTree = "<group>"; };
+		2C17294419A5F84D006F54C4 /* Choice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Choice.m; sourceTree = "<group>"; };
+		2C17294619A5F84D006F54C4 /* Keyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyword.h; sourceTree = "<group>"; };
+		2C17294719A5F84D006F54C4 /* Keyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyword.m; sourceTree = "<group>"; };
+		2C17294919A5F84D006F54C4 /* MeshTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshTerm.h; sourceTree = "<group>"; };
+		2C17294A19A5F84D006F54C4 /* MeshTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshTerm.m; sourceTree = "<group>"; };
+		2C17294C19A5F84D006F54C4 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		2C17294D19A5F84D006F54C4 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		2C17294F19A5F84D006F54C4 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		2C17295019A5F84D006F54C4 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
 		2C2481F5199405DC00A83E33 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
 		2C4C0BA6197E652E007ED584 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2CA7594A1994B1AB00D32C9B /* JSONParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
@@ -73,6 +91,18 @@
 		2CE6AC39197E5B6F00FA59FE = {
 			isa = PBXGroup;
 			children = (
+				2C17294F19A5F84D006F54C4 /* Record.h */,
+				2C17295019A5F84D006F54C4 /* Record.m */,
+				2C17294C19A5F84D006F54C4 /* Question.h */,
+				2C17294D19A5F84D006F54C4 /* Question.m */,
+				2C17294919A5F84D006F54C4 /* MeshTerm.h */,
+				2C17294A19A5F84D006F54C4 /* MeshTerm.m */,
+				2C17294619A5F84D006F54C4 /* Keyword.h */,
+				2C17294719A5F84D006F54C4 /* Keyword.m */,
+				2C17294319A5F84D006F54C4 /* Choice.h */,
+				2C17294419A5F84D006F54C4 /* Choice.m */,
+				2C17294019A5F84C006F54C4 /* Case.h */,
+				2C17294119A5F84C006F54C4 /* Case.m */,
 				2C4C0BA6197E652E007ED584 /* CoreData.framework */,
 				2CB3D67A197E639F00DCAECE /* LICENSE.txt */,
 				2CE6AC44197E5B6F00FA59FE /* Casebook 8 */,
@@ -236,9 +266,15 @@
 			files = (
 				2CE6AC4C197E5B7000FA59FE /* SecondViewController.swift in Sources */,
 				2CBD2BA51990D7D4008984CB /* JSONParser.swift in Sources */,
+				2C17294819A5F84D006F54C4 /* Keyword.m in Sources */,
 				2C2481F6199405DC00A83E33 /* JSONParser.m in Sources */,
+				2C17294B19A5F84D006F54C4 /* MeshTerm.m in Sources */,
 				2CE6AC48197E5B7000FA59FE /* AppDelegate.swift in Sources */,
+				2C17294219A5F84C006F54C4 /* Case.m in Sources */,
 				2CE6AC4A197E5B7000FA59FE /* FirstViewController.swift in Sources */,
+				2C17294E19A5F84D006F54C4 /* Question.m in Sources */,
+				2C17294519A5F84D006F54C4 /* Choice.m in Sources */,
+				2C17295119A5F84D006F54C4 /* Record.m in Sources */,
 				2CBA8582197FD65200B7C87F /* CaseModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
