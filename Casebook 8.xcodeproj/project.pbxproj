@@ -13,12 +13,6 @@
 		2CBA8582197FD65200B7C87F /* CaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA8580197FD65200B7C87F /* CaseModel.xcdatamodeld */; };
 		2CBD2BA51990D7D4008984CB /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD2BA41990D7D4008984CB /* JSONParser.swift */; };
 		2CBD2BA71990D8CB008984CB /* JMCR.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD2BA61990D8CB008984CB /* JMCR.json */; };
-		2CCB326819A4D9000050125E /* Case.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB326719A4D9000050125E /* Case.m */; };
-		2CCB326B19A4D9010050125E /* Choice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB326A19A4D9010050125E /* Choice.m */; };
-		2CCB326E19A4D9010050125E /* Keyword.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB326D19A4D9010050125E /* Keyword.m */; };
-		2CCB327119A4D9010050125E /* MeshTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB327019A4D9010050125E /* MeshTerm.m */; };
-		2CCB327419A4D9010050125E /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB327319A4D9010050125E /* Question.m */; };
-		2CCB327719A4D9010050125E /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB327619A4D9010050125E /* Record.m */; };
 		2CE6AC48197E5B7000FA59FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC47197E5B7000FA59FE /* AppDelegate.swift */; };
 		2CE6AC4A197E5B7000FA59FE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC49197E5B7000FA59FE /* FirstViewController.swift */; };
 		2CE6AC4C197E5B7000FA59FE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC4B197E5B7000FA59FE /* SecondViewController.swift */; };
@@ -45,18 +39,6 @@
 		2CBA8581197FD65200B7C87F /* CaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaseModel.xcdatamodel; sourceTree = "<group>"; };
 		2CBD2BA41990D7D4008984CB /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		2CBD2BA61990D8CB008984CB /* JMCR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JMCR.json; sourceTree = "<group>"; };
-		2CCB326619A4D9000050125E /* Case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
-		2CCB326719A4D9000050125E /* Case.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case.m; sourceTree = "<group>"; };
-		2CCB326919A4D9010050125E /* Choice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Choice.h; sourceTree = "<group>"; };
-		2CCB326A19A4D9010050125E /* Choice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Choice.m; sourceTree = "<group>"; };
-		2CCB326C19A4D9010050125E /* Keyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyword.h; sourceTree = "<group>"; };
-		2CCB326D19A4D9010050125E /* Keyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyword.m; sourceTree = "<group>"; };
-		2CCB326F19A4D9010050125E /* MeshTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshTerm.h; sourceTree = "<group>"; };
-		2CCB327019A4D9010050125E /* MeshTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshTerm.m; sourceTree = "<group>"; };
-		2CCB327219A4D9010050125E /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
-		2CCB327319A4D9010050125E /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		2CCB327519A4D9010050125E /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
-		2CCB327619A4D9010050125E /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
 		2CE6AC42197E5B6F00FA59FE /* Casebook 8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casebook 8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE6AC46197E5B7000FA59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE6AC47197E5B7000FA59FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,18 +98,6 @@
 				2CE6AC4B197E5B7000FA59FE /* SecondViewController.swift */,
 				2CE6AC4D197E5B7000FA59FE /* Main.storyboard */,
 				2CBA8580197FD65200B7C87F /* CaseModel.xcdatamodeld */,
-				2CCB327519A4D9010050125E /* Record.h */,
-				2CCB327619A4D9010050125E /* Record.m */,
-				2CCB327219A4D9010050125E /* Question.h */,
-				2CCB327319A4D9010050125E /* Question.m */,
-				2CCB326F19A4D9010050125E /* MeshTerm.h */,
-				2CCB327019A4D9010050125E /* MeshTerm.m */,
-				2CCB326C19A4D9010050125E /* Keyword.h */,
-				2CCB326D19A4D9010050125E /* Keyword.m */,
-				2CCB326919A4D9010050125E /* Choice.h */,
-				2CCB326A19A4D9010050125E /* Choice.m */,
-				2CCB326619A4D9000050125E /* Case.h */,
-				2CCB326719A4D9000050125E /* Case.m */,
 				2CE6AC50197E5B7000FA59FE /* Images.xcassets */,
 				2CE6AC45197E5B7000FA59FE /* Supporting Files */,
 				2CBD2BA41990D7D4008984CB /* JSONParser.swift */,
@@ -266,15 +236,9 @@
 			files = (
 				2CE6AC4C197E5B7000FA59FE /* SecondViewController.swift in Sources */,
 				2CBD2BA51990D7D4008984CB /* JSONParser.swift in Sources */,
-				2CCB326E19A4D9010050125E /* Keyword.m in Sources */,
 				2C2481F6199405DC00A83E33 /* JSONParser.m in Sources */,
-				2CCB327119A4D9010050125E /* MeshTerm.m in Sources */,
 				2CE6AC48197E5B7000FA59FE /* AppDelegate.swift in Sources */,
-				2CCB326819A4D9000050125E /* Case.m in Sources */,
 				2CE6AC4A197E5B7000FA59FE /* FirstViewController.swift in Sources */,
-				2CCB327419A4D9010050125E /* Question.m in Sources */,
-				2CCB326B19A4D9010050125E /* Choice.m in Sources */,
-				2CCB327719A4D9010050125E /* Record.m in Sources */,
 				2CBA8582197FD65200B7C87F /* CaseModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
