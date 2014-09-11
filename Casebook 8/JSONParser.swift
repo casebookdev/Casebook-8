@@ -10,6 +10,11 @@ import Foundation
 import CoreData
 import UIKit
 
+// My imports
+import Record.h
+import Question.h
+// check how this is done properly...
+
 // Here we shall import the parsing code from the previous project and convert it into Swift code. 
 // As an example JSON file, will parse the file that was uploaded with the BMC article.
 // Note: Inlclude reference to Casebook article here.
