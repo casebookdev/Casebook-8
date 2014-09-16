@@ -11,8 +11,8 @@ import CoreData
 import UIKit
 
 // My imports
-import Record.h
-import Question.h
+//import Record.h
+//import Question.h
 // check how this is done properly...
 
 // Here we shall import the parsing code from the previous project and convert it into Swift code. 
