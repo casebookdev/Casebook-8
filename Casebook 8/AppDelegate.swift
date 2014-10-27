@@ -6,6 +6,12 @@
 //  Copyright (c) 2014 Marcus D. Bloice. All rights reserved.
 //
 
+/*
+
+Xcode 6.1: ipdated to Xcode 6.1, no longer using beta. 
+
+*/
+
 import UIKit
 import CoreData
 
