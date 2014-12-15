@@ -9,11 +9,15 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     
     // IB Outlets are just created here now instead of the
-    @IBOutlet var txtCaseName: UITextField
-    @IBOutlet var txtAccessCode: UITextField
+    @IBOutlet var txtCaseName: UITextField! // ! means it is required,
+    @IBOutlet var txtAccessCode: UITextField? // ? means it is optional.
     
     // IB Actions also appear here in Swift
     @IBAction func btnSave(){
