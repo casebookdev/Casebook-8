@@ -21,11 +21,11 @@ class FirstViewController: UIViewController {
     
     // IB Actions also appear here in Swift
     @IBAction func btnSave(){
-        txtCaseName.text = "Save Button Pressed"
+        // Add functionality.
     }
     
     @IBAction func btnLoad(){
-        txtCaseName.text = "Load Button Pressed"
+        // Add functionality.
     }
     
     override func viewDidLoad() {
