@@ -25,6 +25,7 @@
 		2CE6AC4F197E5B7000FA59FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6AC4D197E5B7000FA59FE /* Main.storyboard */; };
 		2CE6AC51197E5B7000FA59FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE6AC50197E5B7000FA59FE /* Images.xcassets */; };
 		2CE6AC5D197E5B7000FA59FE /* Casebook_8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6AC5C197E5B7000FA59FE /* Casebook_8Tests.swift */; };
+		2CF38C361AB9965D00CE79D5 /* Hint.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF38C351AB9965D00CE79D5 /* Hint.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		2CE6AC56197E5B7000FA59FE /* Casebook 8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Casebook 8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE6AC5B197E5B7000FA59FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE6AC5C197E5B7000FA59FE /* Casebook_8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casebook_8Tests.swift; sourceTree = "<group>"; };
+		2CF38C351AB9965D00CE79D5 /* Hint.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Hint.xib; path = ../Hint.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				2CE6AC49197E5B7000FA59FE /* FirstViewController.swift */,
 				2CE6AC4B197E5B7000FA59FE /* SecondViewController.swift */,
 				2CE6AC4D197E5B7000FA59FE /* Main.storyboard */,
+				2CF38C351AB9965D00CE79D5 /* Hint.xib */,
 				2CBA8580197FD65200B7C87F /* CaseModel.xcdatamodeld */,
 				2CE6AC50197E5B7000FA59FE /* Images.xcassets */,
 				2CE6AC45197E5B7000FA59FE /* Supporting Files */,
@@ -245,6 +248,7 @@
 				2C91CBCE1A30BF9100DFB608 /* Casebook Launch Screen.xib in Resources */,
 				2CBD2BA71990D8CB008984CB /* JMCR.json in Resources */,
 				2CE6AC4F197E5B7000FA59FE /* Main.storyboard in Resources */,
+				2CF38C361AB9965D00CE79D5 /* Hint.xib in Resources */,
 				2CE6AC51197E5B7000FA59FE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
