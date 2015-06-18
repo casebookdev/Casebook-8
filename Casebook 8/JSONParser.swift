@@ -51,15 +51,9 @@ func parseJSONFile(fileToParsen: NSString) -> NSString{
     // NOTE TO SELF!!!
     // The next step is to generate the classes fromthe XC Data Model. Then we can input Case objects, with 
     // Record and Question objects within these Case objects. 
-    // NEXT STEP: Auto-generate classes from data model!
-    
-    
+    // NEXT STEP: Auto-generate classes from data model.
     
     // Now we can load the JSON by translating the code from the other Casebook project
-    
-    
-    
-    
     
     
     return filename
